@@ -1,6 +1,7 @@
-lista =[1,2,3,4,5,6]
-for x in range (1,2):
-    print(x)
+import csv
 
-for y in range (1,6):
-    print(y)
+with open('Medianinkomst.csv', 'r') as csvFile:
+    reader = csv.reader(csvFile)
+    for row in reader:
+        print(row)
+csvFile.close()
