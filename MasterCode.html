@@ -3,14 +3,13 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" type="text/css" href="mc.css">
    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
    <title> Unicorn Co </title>
 </head>
 
 <body>
-    <h2> Revies vs Price </h2>
-    <div id="scatterPlot"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <h2> Medianinkomst per kommun </h2>
+    <div id="bar"><!-- Plotly chart will be drawn inside this DIV --></div>
 </body>
 
 <script
@@ -20,7 +19,7 @@
 
 
 <!-- Första diagram om inkomst (Leo) -->
-<script>En
+<script>
     var year = []; // en lista skapas 
     for (i=0; i < medianData.length; i++) {
     year.push (medianData[i].year)
@@ -28,12 +27,12 @@
 
     var area = [];
     for (i=0; i < medianData.length; i++) {
-    are.push (medianData[i].Riket)
+    area.push (medianData[i].Riket)
 };  
 
     var data = {
     x: year,
-    y: Riket,
+    y: area,
     type: 'bar'};
 
     //var data = [?];
