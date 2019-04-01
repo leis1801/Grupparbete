@@ -1,0 +1,73 @@
+<html lang="sv">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   <title> Unicorn Co </title>
+</head>
+
+<body>
+    <h2> Medianinkomst per kommun </h2>
+    <div id="bar"><!-- Plotly chart will be drawn inside this DIV --></div>
+</body>
+
+<script
+    type = "text/javascript" src="JSGraphs.js"> // kopplling till js filen 
+</script>
+
+
+
+<!-- Första diagram om inkomst (Leo) -->
+<script>
+    var year = []; // en lista skapas 
+    for (i=0; i < medianData.length; i++) {
+    year.push (medianData[i].year)
+};
+
+    var area = [];
+    for (i=0; i < medianData.length; i++) {
+    area.push (medianData[i].Riket)
+};  
+
+    var data = {
+    x: year,
+    y: area,
+    type: 'bar'};
+
+    //var data = [?];
+
+    var layout = {
+      height: 400, width: 600,
+            xaxis: {title: "Year"},
+            yaxis: {title: "Region"},
+    }
+
+Plotly.newPlot('bar', data, layout, {responsive: true});
+</script>
+
+
+
+<script>
+
+    #Graph2
+
+</script>
+
+
+<script>
+
+        #Graph3
+    
+</script>
+
+
+<script>
+
+        #Graph4
+    
+</script>
+
+
+
+</html>
