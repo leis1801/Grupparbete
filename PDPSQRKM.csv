@@ -1,0 +1,211 @@
+Year,City,Population_DensityPSQRKM
+2009,Stockholm,309.7
+2010,Stockholm,315.1
+2011,Stockholm,320.5
+2012,Stockholm,325.9
+2013,Stockholm,331.4
+2014,Stockholm,336.9
+2015,Stockholm,342
+2016,Stockholm,347.8
+2017,Stockholm,353.8
+2018,Stockholm,359.9
+2009,Uppsala län,40.4
+2010,Uppsala län,40.9
+2011,Uppsala län,41.3
+2012,Uppsala län,41.7
+2013,Uppsala län,42.2
+2014,Uppsala län,42.6
+2015,Uppsala län,43.2
+2016,Uppsala län,44.1
+2017,Uppsala län,45.1
+2018,Uppsala län,46
+2009,Södermanlands län,44.1
+2010,Södermanlands län,44.4
+2011,Södermanlands län,44.9
+2012,Södermanlands län,45.2
+2013,Södermanlands län,45.7
+2014,Södermanlands län,46.2
+2015,Södermanlands län,46.7
+2016,Södermanlands län,47.4
+2017,Södermanlands län,48
+2018,Södermanlands län,48.5
+2009,Östergötlands län,40.3
+2010,Östergötlands län,40.5
+2011,Östergötlands län,40.9
+2012,Östergötlands län,41.1
+2013,Östergötlands län,41.5
+2014,Östergötlands län,41.9
+2015,Östergötlands län,42.2
+2016,Östergötlands län,42.8
+2017,Östergötlands län,43.3
+2018,Östergötlands län,43.7
+2009,Jönköpings län,32
+2010,Jönköpings län,32.1
+2011,Jönköpings län,32.4
+2012,Jönköpings län,32.4
+2013,Jönköpings län,32.7
+2014,Jönköpings län,33
+2015,Jönköpings län,33.3
+2016,Jönköpings län,33.8
+2017,Jönköpings län,34.2
+2018,Jönköpings län,34.6
+2009,Kronobergs län,21.6
+2010,Kronobergs län,21.7
+2011,Kronobergs län,21.9
+2012,Kronobergs län,22
+2013,Kronobergs län,22.2
+2014,Kronobergs län,22.5
+2015,Kronobergs län,22.7
+2016,Kronobergs län,23.1
+2017,Kronobergs län,23.4
+2018,Kronobergs län,23.7
+2009,Kalmar län,20.8
+2010,Kalmar län,20.8
+2011,Kalmar län,20.9
+2012,Kalmar län,20.9
+2013,Kalmar län,21
+2014,Kalmar län,21.1
+2015,Kalmar län,21.3
+2016,Kalmar län,21.7
+2017,Kalmar län,21.8
+2018,Kalmar län,21.9
+2009,Gotlands län,18.2
+2010,Gotlands län,18.2
+2011,Gotlands län,18.3
+2012,Gotlands län,18.2
+2013,Gotlands län,18.2
+2014,Gotlands län,18.3
+2015,Gotlands län,18.3
+2016,Gotlands län,18.5
+2017,Gotlands län,18.7
+2018,Gotlands län,18.9
+2009,Blekinge län,51.8
+2010,Blekinge län,52
+2011,Blekinge län,52.2
+2012,Blekinge län,51.9
+2013,Blekinge län,52.1
+2014,Blekinge län,52.6
+2015,Blekinge län,53.3
+2016,Blekinge län,54.1
+2017,Blekinge län,54.4
+2018,Blekinge län,54.5
+2009,Skåne län,111.6
+2010,Skåne län,112.7
+2011,Skåne län,114.2
+2012,Skåne län,115.1
+2013,Skåne län,116.2
+2014,Skåne län,117.5
+2015,Skåne län,118.9
+2016,Skåne län,120.8
+2017,Skåne län,122.6
+2018,Skåne län,124.2
+2009,Hallands län,54.3
+2010,Hallands län,54.8
+2011,Hallands län,55.6
+2012,Hallands län,56
+2013,Hallands län,56.5
+2014,Hallands län,57.2
+2015,Hallands län,58
+2016,Hallands län,59
+2017,Hallands län,59.9
+2018,Hallands län,60.7
+2009,Västra Götalands län,65.5
+2010,Västra Götalands län,66
+2011,Västra Götalands län,66.8
+2012,Västra Götalands län,67.2
+2013,Västra Götalands län,67.9
+2014,Västra Götalands län,68.6
+2015,Västra Götalands län,69.3
+2016,Västra Götalands län,70.2
+2017,Västra Götalands län,71
+2018,Västra Götalands län,71.8
+2009,Värmlands län,15.5
+2010,Värmlands län,15.5
+2011,Värmlands län,15.6
+2012,Värmlands län,15.5
+2013,Värmlands län,15.6
+2014,Värmlands län,15.7
+2015,Värmlands län,15.7
+2016,Värmlands län,15.9
+2017,Värmlands län,16
+2018,Värmlands län,16.1
+2009,Örebro län,32.6
+2010,Örebro län,32.8
+2011,Örebro län,33.1
+2012,Örebro län,33.2
+2013,Örebro län,33.6
+2014,Örebro län,33.9
+2015,Örebro län,34.2
+2016,Örebro län,34.7
+2017,Örebro län,35.1
+2018,Örebro län,35.5
+2009,Västmanlands län,48.9
+2010,Västmanlands län,49.1
+2011,Västmanlands län,49.7
+2012,Västmanlands län,50
+2013,Västmanlands län,50.6
+2014,Västmanlands län,51.1
+2015,Västmanlands län,51.6
+2016,Västmanlands län,52.3
+2017,Västmanlands län,53
+2018,Västmanlands län,53.5
+2009,Dalarnas län,9.8
+2010,Dalarnas län,9.8
+2011,Dalarnas län,9.9
+2012,Dalarnas län,9.8
+2013,Dalarnas län,9.9
+2014,Dalarnas län,10
+2015,Dalarnas län,10
+2016,Dalarnas län,10.2
+2017,Dalarnas län,10.2
+2018,Dalarnas län,10.2
+2009,Gävleborgs län,15.2
+2010,Gävleborgs län,15.2
+2011,Gävleborgs län,15.2
+2012,Gävleborgs län,15.2
+2013,Gävleborgs län,15.3
+2014,Gävleborgs län,15.5
+2015,Gävleborgs län,15.6
+2016,Gävleborgs län,15.7
+2017,Gävleborgs län,15.8
+2018,Gävleborgs län,15.8
+2009,Västernorrlands län,11.2
+2010,Västernorrlands län,11.2
+2011,Västernorrlands län,11.2
+2012,Västernorrlands län,11.2
+2013,Västernorrlands län,11.2
+2014,Västernorrlands län,11.3
+2015,Västernorrlands län,11.3
+2016,Västernorrlands län,11.4
+2017,Västernorrlands län,11.4
+2018,Västernorrlands län,11.4
+2009,Jämtlands län,2.6
+2010,Jämtlands län,2.6
+2011,Jämtlands län,2.6
+2012,Jämtlands län,2.5
+2013,Jämtlands län,2.6
+2014,Jämtlands län,2.6
+2015,Jämtlands län,2.6
+2016,Jämtlands län,2.6
+2017,Jämtlands län,2.7
+2018,Jämtlands län,2.7
+2009,Västerbottens län,4.7
+2010,Västerbottens län,4.7
+2011,Västerbottens län,4.7
+2012,Västerbottens län,4.7
+2013,Västerbottens län,4.8
+2014,Västerbottens län,4.8
+2015,Västerbottens län,4.8
+2016,Västerbottens län,4.9
+2017,Västerbottens län,4.9
+2018,Västerbottens län,4.9
+2009,Norrbottens län,2.5
+2010,Norrbottens län,2.5
+2011,Norrbottens län,2.6
+2012,Norrbottens län,2.5
+2013,Norrbottens län,2.6
+2014,Norrbottens län,2.6
+2015,Norrbottens län,2.6
+2016,Norrbottens län,2.6
+2017,Norrbottens län,2.6
+2018,Norrbottens län,2.6
