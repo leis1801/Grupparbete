@@ -1,0 +1,33 @@
+body {
+background: #ccc;
+}
+#WRAPPER{
+	position:relative;
+	width:100%;	min-height: 100%;
+	margin:0; padding:0; 
+}
+
+/* Översta delen av sidan som innehåller logo, meny,slogan osv ... */
+#HEADER{
+	position:relative;
+	margin:0; padding: 0;
+	clear:both; /* inget till höger eller vänster om */
+    height:80px;
+    width: 1000px;
+	background: #EFEFEF;
+}
+/* Översta delen av sidan som är lika stor som CONTENTS och som ligger centrerad */
+#BANNER{
+	position:relative;
+	margin:0 auto; /* centrerad */
+	padding:0;
+	max-width:1000px;
+	height:100%;
+    background: #EFEFEF;
+}
+    
+#namn   {
+        position:relative;
+        padding-bottom: 15px;
+        float: left; 
+    }
