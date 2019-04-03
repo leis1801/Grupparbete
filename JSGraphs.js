@@ -326,7 +326,7 @@
         var layout = {
           hivermode:"closest",  
           showlegend: true,
-          title: 'Median Inkomst',
+          title: 'Medianinkomst',
           height: 600, width: 1000,
                 xaxis: {title: "Year",
                         tickangle: -55,
