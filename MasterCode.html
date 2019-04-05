@@ -5,7 +5,9 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" type="text/css" href="style.css">
    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-   <script type = "text/javascript"  src="inkomst.json"></script>
+   <script type = "text/javascript"  src="inkomst.json"></script>  
+   <script type = "text/javascript2"  src="sunshine.json"></script>  
+
 </head>
  
 <body>
@@ -14,14 +16,33 @@
                     <div id="BANNER">
                             <div id="namn">
                                 <H1>BI Consulting!</H1>
-                            </div>
-                    </div>
+                            </div>  
+                        </div>
                 </div> 
-            
+
+
+<div id="myDiv2"><!-- Plotly chart will be drawn inside this DIV --></div>
         
+<script 
+type = "text/javascript2"  src="JSGraphs2.js"> // kopplling till js filen 
+</script>
+
+<div> 
+    <p>
+    <iframe width="1000" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmJkNTQ3MmQtMWEyZS00N2I1LWI2MDYtNTA5NjZhOTIxYmQzIiwidCI6IjIwZTllNjU4LWQ4NDQtNGQ5Yy1hMGI3LTM2Mzg5ZDcxNzM2ZiIsImMiOjh9" frameborder="0" allowFullScreen="true">
+    </iframe>
+    </p>
+</div>
+
+<div>
+        <p>
+             <iframe width="1000" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNDk2YjliNzYtYzAxNy00NDlhLWI3MTYtZjYzMzQ4MDdlMWM5IiwidCI6IjIwZTllNjU4LWQ4NDQtNGQ5Yy1hMGI3LTM2Mzg5ZDcxNzM2ZiIsImMiOjh9" frameborder="0" allowFullScreen="true">
+             </iframe>
+        </p>
+</div>
 
 <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
-
+        
 <script 
 type = "text/javascript"  src="JSGraphs.js"> // kopplling till js filen 
 </script>
