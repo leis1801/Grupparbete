@@ -149,7 +149,6 @@
         type: "scatter",
         mode: "markers"
     };
-
         // Lund
         var year9 = []; // en lista skapas 
         for (i=0; i < medianData.length; i++) {
@@ -322,7 +321,7 @@
           hivermode:"closest",  
           showlegend: true,
           title: 'Medianinkomst',
-          height: 600, width: 1000,
+          width: 800,
                 xaxis: {title: "Year",
                         tickangle: -55,
                         autotick:false,
