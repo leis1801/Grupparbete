@@ -1,33 +1,69 @@
 body {
-background: #ccc;
+background-image: url("cover_In.jpg");
 }
 #WRAPPER{
 	position:relative;
 	width:100%;	min-height: 100%;
 	margin:0; padding:0; 
 }
-
-/* Översta delen av sidan som innehåller logo, meny,slogan osv ... */
-#HEADER{
-	position:relative;
-	margin:0; padding: 0;
-	clear:both; /* inget till höger eller vänster om */
-    height:80px;
-    width: 1000px;
-	background: #EFEFEF;
+.content {
+	width:90%;
+	float: right ;
+	margin-top: 45px;
 }
-/* Översta delen av sidan som är lika stor som CONTENTS och som ligger centrerad */
+.svg-container {
+	width:70%;
+	float: right !important;
+	margin-top: 45px !important;
+	margin-right: 300px !important;
+}
+
 #BANNER{
 	position:relative;
-	margin:0 auto; /* centrerad */
+	margin:0;
 	padding:0;
 	max-width:1000px;
-	height:100%;
-    background: #EFEFEF;
+	height:15%;
+    /*background: #42f3e4;*/
 }
     
 #namn   {
+	    color: #fff;
         position:relative;
         padding-bottom: 15px;
-        float: left; 
-    }
+		padding-top: 15px;
+		text-align: center;
+	}
+
+	.menu {
+        background:#f2f5f5;
+		padding-bottom: 15px;
+		margin-top: 45px;
+		margin-bottom: 25px;
+		float: left;
+		margin-left: 15px;
+		border-radius: 4px;
+	    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+	    padding: 15px 15px;
+	}
+.button {
+	background-color: #003554;;
+    box-shadow: 0 3px 0 #d4dddc;
+    border-radius: 50px;
+    border: 1px solid rgb(10, 10, 10);
+    /*display: inline-block;*/
+    padding: 10px 17px 10px;
+    font-weight: 500;
+	line-height: 70%;
+	margin-bottom: 15px;
+}
+
+.button a {
+	color: #fff;
+	font-size: 20px;
+}
+.button a:hover {
+	color: #eaeff0;
+	font-size: 21px;
+}
+	

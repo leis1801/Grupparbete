@@ -1,8 +1,7 @@
 
     var jsonString = JSON.stringify(medianData);
-  //var jsonObject = json.parse(parsedString);
-
-  console.log(jsonString);
+  //var jsonObject = json.parse(parsedString);  
+     console.log(jsonString);
   // Åre
         var year = []; // en lista skapas 
         for (i=0; i < medianData.length; i++) {
@@ -133,7 +132,6 @@
         mode: "markers"
     };
 
-
         // Lulea
         var year8 = []; // en lista skapas 
         for (i=0; i < medianData.length; i++) {
@@ -151,7 +149,6 @@
         type: "scatter",
         mode: "markers"
     };
-
         // Lund
         var year9 = []; // en lista skapas 
         for (i=0; i < medianData.length; i++) {
@@ -315,19 +312,16 @@
           },
          y: lan17,
          name: "Sverige"};
-        
-
 
         var data = [Are, Borlange, Goteborg, Gotland, Karlskrona, 
                    Karlstad, Kiruna, Lulea, Lund, Norrkoping,Norrtalje,
                    Ostersund, Stockholm, Stromstad, Umea, Vaxjo, Sverige];
 
-    
         var layout = {
           hivermode:"closest",  
           showlegend: true,
-          title: 'Median Inkomst',
-          height: 600, width: 1000,
+          title: 'Medianinkomst',
+          width: 800,
                 xaxis: {title: "Year",
                         tickangle: -55,
                         autotick:false,
@@ -338,5 +332,5 @@
                 yaxis: {title: "Inkomst",
                         range:[150000, 320000],},                           
         }
-    
-    Plotly.newPlot('myDiv', data, layout, {responsive: true});
+
+        Plotly.newPlot('myDiv', data, layout, {responsive: true});
