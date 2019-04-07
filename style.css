@@ -47,14 +47,14 @@ background-image: url("cover_In.jpg");
 	    padding: 15px 15px;
 	}
 .button {
-	background-color: #0b1c4b;;
+	background-color: #003554;;
     box-shadow: 0 3px 0 #d4dddc;
     border-radius: 50px;
     border: 1px solid rgb(10, 10, 10);
     /*display: inline-block;*/
     padding: 10px 17px 10px;
     font-weight: 500;
-	line-height: 50%;
+	line-height: 70%;
 	margin-bottom: 15px;
 }
 
