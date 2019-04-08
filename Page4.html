@@ -6,6 +6,7 @@
    <link rel="stylesheet" type="text/css" href="style.css">
    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
    <script type = "text/javascript"  src="inkomst.json"></script>  
+   <script type = "text/javascript"  src="population.json"></script>  
 </head>
 
 <body>
@@ -13,7 +14,7 @@
                 <div id="HEADER">
                     <div id="BANNER">
                             <div id="namn">
-                                <H1> International BI Consulting </H1>    
+                                <H1>International BI Consulting </H1>    
                             </div>  
                     </div>
                 </div> 
@@ -21,26 +22,17 @@
                 <div class="button"><a href="Page2.html">Graf 2</a></div>
                 <div class="button"><a href="Page3.html">Graf 3</a></div>
                 <div class="button"><a href="Page4.html">Graf 4</a></div>
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 2cf2520851097efabaaa00e913ae47d4ecb71688
-            </div>
-
-
-<div>
-        <div class="content">
-             <iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiNDk2YjliNzYtYzAxNy00NDlhLWI3MTYtZjYzMzQ4MDdlMWM5IiwidCI6IjIwZTllNjU4LWQ4NDQtNGQ5Yy1hMGI3LTM2Mzg5ZDcxNzM2ZiIsImMiOjh9" frameborder="0" allowFullScreen="true">
-             </iframe>
-            </div>
+            </div> 
+  
+            <div id="scatter"><!-- Plotly chart will be drawn inside this DIV --></div>
+        
+<div class="content">
+<script type = "text/javascript"  src="population.js"> </script>
 </div>
 
 
-        
-<script 
-type = "text/javascript"  src="JSGraphs.js"> // kopplling till js filen 
-</script>
+</div>
 
 </div>
 </body>
