@@ -21,14 +21,14 @@ background-image: url("cover_In.jpg");
 	
 	position:relative;
 	margin-top: 28px;
-	margin-left: 150px;
+	margin-left: 250px;
 
 }
 .svg-container {
 	width: 100%;
 	float: right !important;
 	margin-top: 28px !important;
-	margin-right: 300px !important;
+	margin-right: 200px !important;
 }
 
 #BANNER{
@@ -45,14 +45,15 @@ background-image: url("cover_In.jpg");
         position:relative;
         padding-bottom: 15px;
 		padding-top: 15px;
-		text-align: center;
+		text-align:left;
+		margin-left: 250px;
 	}
 
 	.menu {
         background:#f2f5f5;
 		padding-bottom: 15px;
-		margin-top: 25px;
-		margin-bottom: 25px;
+		margin-top: 27px;
+		margin-bottom: 15px;
 		float: left;
 		margin-left: 15px;
 		border-radius: 4px;
@@ -78,4 +79,17 @@ background-image: url("cover_In.jpg");
 .button a:hover {
 	color: #eaeff0;
 	font-size: 21px;
+}
+
+.img
+{
+	width: 800px;
+	height: 515px;
+	padding: 0px;
+	overflow:true;
+	float: left;
+	margin-left:20px;
+	position: relative;
+	margin-top: 28px;
+
 }
