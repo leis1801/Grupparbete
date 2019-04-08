@@ -12,7 +12,7 @@ background-image: url("cover_In.jpg");
 	margin-top: 45px;
 }
 .svg-container {
-	width:70%;
+	width: 100%;
 	float: right !important;
 	margin-top: 45px !important;
 	margin-right: 300px !important;
