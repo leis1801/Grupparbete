@@ -78,14 +78,27 @@ background-image: url("cover_In.jpg");
 	margin:0; padding:0; 
 }
 .content {
-	width:90%;
+	width: 800px;
+	height: 515px;
+	padding: 0px;
+	overflow:true;
 	float: right ;
-	margin-top: 45px;
+	position: relative;
+	margin-top: 35px;
+
+}
+
+.iframe {
+	
+	position:relative;
+	margin-top: 28px;
+	margin-left: 150px;
+
 }
 .svg-container {
 	width: 100%;
 	float: right !important;
-	margin-top: 45px !important;
+	margin-top: 28px !important;
 	margin-right: 300px !important;
 }
 
@@ -109,7 +122,7 @@ background-image: url("cover_In.jpg");
 	.menu {
         background:#f2f5f5;
 		padding-bottom: 15px;
-		margin-top: 45px;
+		margin-top: 25px;
 		margin-bottom: 25px;
 		float: left;
 		margin-left: 15px;
@@ -137,6 +150,7 @@ background-image: url("cover_In.jpg");
 	color: #eaeff0;
 	font-size: 21px;
 }
+<<<<<<< HEAD
 
 #scatter {
   
@@ -169,3 +183,5 @@ div {
        color: darkblue;
     }
 >>>>>>> 2cf2520851097efabaaa00e913ae47d4ecb71688
+=======
+>>>>>>> origin/master

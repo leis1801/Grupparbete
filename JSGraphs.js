@@ -322,6 +322,7 @@
           showlegend: true,
           title: 'Medianinkomst',
           width: 800,
+          height:515,
                 xaxis: {title: "Year",
                         tickangle: -55,
                         autotick:false,
