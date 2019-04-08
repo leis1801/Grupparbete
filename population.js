@@ -33,8 +33,8 @@ for (let i = 0; i < PopulationDensity.length; i++)
 
 var layoutforscatter = {
   autosize: false,
-  width: 1200,
-  height: 800,
+  width: 800,
+  height: 515,
   
   title: {
     text: "Population Density Per Sqr km",
