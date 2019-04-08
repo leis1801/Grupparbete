@@ -66,4 +66,34 @@ background-image: url("cover_In.jpg");
 	color: #eaeff0;
 	font-size: 21px;
 }
+
+#scatter {
+  
+    width: 1200px;
+    height: 800px;
+    border: 25px solid rgb(16, 13, 158);
+    border-radius: 30px 50px 30px;
+    padding: 25px;
+    margin: 25px;
+	float: left;
 	
+
+	/* Hasan graph styling */ 
+
+}
+
+div {
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    }
+    
+    h2 {
+       text-align: center;
+       color: darkblue;
+    }
+    
+    h3 {
+       text-align: center;
+       color: darkblue;
+    }
